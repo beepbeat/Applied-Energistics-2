@@ -1,0 +1,2 @@
+s a component of the Crafting CPU. This particular block provides the CPU with no additional features, but can be used as a "filler" block and as a crafting ingredient for the following,
+[image {25,2,appliedenergistics2:textures/block/BlockCraftingUnit.png}]

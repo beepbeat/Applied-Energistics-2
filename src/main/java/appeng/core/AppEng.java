@@ -22,6 +22,7 @@ package appeng.core;
 import java.io.File;
 import java.util.concurrent.TimeUnit;
 
+import appeng.client.ClientHelper;
 import com.google.common.base.Stopwatch;
 
 import cpw.mods.fml.common.FMLCommonHandler;
@@ -126,7 +127,7 @@ public class AppEng
 			AELog.info( "Starting VersionChecker" );
 			this.startService( "AE2 VersionChecker", new Thread( new VersionChecker() ) );
 		}
-
+        ClientHelper.registerHandlers();
 		AELog.info( "Pre Initialization ( ended after " + star.elapsed( TimeUnit.MILLISECONDS ) + "ms )" );
 	}
 

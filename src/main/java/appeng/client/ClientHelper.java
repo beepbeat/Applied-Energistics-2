@@ -26,6 +26,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+import cpw.mods.fml.common.event.FMLInterModComms;
 import org.lwjgl.opengl.GL11;
 
 import net.minecraft.block.Block;
@@ -422,5 +423,9 @@ public class ClientHelper extends ServerHelper
 	{
 		throw new MissingCoreMod();
 	}
+
+    public static void registerHandlers() {
+        FMLInterModComms.sendMessage("IGWMod", "appeng.client.igw.IGWHandler", "init");
+    }
 
 }
