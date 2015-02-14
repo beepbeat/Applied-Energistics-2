@@ -100,7 +100,9 @@ sourceSets {
                     "assets/appliedenergistics2/textures/blocks/*",
                     "assets/appliedenergistics2/textures/guis/*",
                     "assets/appliedenergistics2/textures/models/*",
-                    "assets/appliedenergistics2/textures/items/*"
+                    "assets/appliedenergistics2/textures/items/*",
+					"assets/igwmod/en_US/block/*",
+                    "assets/igwmod/en_US/wiki/AETab/*"
         }
     }
 }
